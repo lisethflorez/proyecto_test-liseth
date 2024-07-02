@@ -1,0 +1,398 @@
+@font-face{
+    font-family: "light";
+    src: url(fuente/MyriadPro-Light.otf);
+}
+@font-face{
+    font-family: "regular";
+    src: url(fuente/MYRIADPRO-REGULAR.OTF);
+}
+@font-face{
+    font-family: "cursiva";
+    src: url(fuente/AmazonEmberCdRC_BdIt.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    width: 100vw;
+}
+.superior{
+    width: 100vw;
+    height: 18vw;
+    background-color: #3266cc;
+    justify-content: space-evenly;
+    position: fixed;
+    align-items: center;
+    font-family: "light";
+    z-index: 1;
+    display: flex;
+    
+}
+.c{
+    width: 100vw;
+    height: 18vw;
+}
+.superior a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: white;
+}
+.superior a.consultar{
+    width: 15.5rem;
+    height: 3.68rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 20rem;
+    font-family: "light";
+    font-weight: bold;
+}
+.fondo{
+    background-image: url(img/Fondo.png);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bloque1{
+    width: 100vw;
+}
+.formulario {
+    background-color: white;
+    width: 59.5rem;
+    height: auto;
+    text-align: center;
+    font-size: 2.2rem;
+    border-radius: 2rem;
+    margin: auto;
+    
+}
+.formulario input{
+    width: 50.5rem;
+    height: 2.6rem;
+    font-size: 1.5rem;
+}
+#tipodocu{
+    width: 50.9rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+.formulario a{
+    text-decoration: none;
+    width: 15.6rem;
+    height: 4rem;
+    background-color: #157FFB;
+    border-radius: 1rem;
+    display: block;
+    color: white;
+    margin-left: 23rem;
+    margin-top: 2.6rem;
+    align-content: center;
+    justify-content: center;
+}
+.formulario label{
+    font-size: 1.5rem;
+}
+.formulario label.tipo{
+    margin-left: -39rem;
+}
+.formulario label.document{
+    margin-left: -36.9rem;
+}
+.formulario label.nombres{
+    margin-left: -41.5rem;
+}
+.formulario label.fecha{
+    margin-left: -29.5rem;
+}
+.formulario label.tele{
+    margin-left: -42rem;
+}
+.formulario .texto{
+    font-size: 3rem;
+    font-family: "regular";
+}
+.formulario .texto1{
+    font-size: 1.3rem;
+    margin-top: -1rem;
+    font-family: light;
+}
+.contenido {
+    text-align: center;
+    width: 42rem;
+    margin-top: 17rem;
+}
+.contenido h2{
+    font-size: 3.5rem;
+    font-family: "light";
+    font-weight: 300;
+}
+.contenido p{
+    font-size: 2rem;
+    font-family: "light";
+}
+.boton {
+    text-decoration: none;
+    display: block;
+    width: 15.6rem;
+    height: 4rem;
+    background-color: #157FFB;
+    border-radius: 3rem;
+    color: white;
+    border: none;
+    justify-content: center;
+    margin-left: 13rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.bloque2 {
+    width: 100vw;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text1 {
+    font-size: 4.2rem;
+    text-align: center;
+    font-family: "regular";
+    font-weight: 400;
+}
+.text2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "light";
+    width: 60rem;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+.box img.globo{
+    width: 45rem;
+    padding-bottom: 6rem;
+}
+.bloque3 {
+    width: 100vw;
+    font-size: 2rem;
+    font-family: "light";
+}
+.titulo {
+    text-align: center;
+    font-size: 4.2rem;
+    font-family: "light";
+    font-weight: 500;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.box2 p{
+    font-family: "light";
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.box2 h2{
+    font-size: 3.6rem;
+    font-family: "regular";
+    font-weight: 450;
+}
+.box2 h3{
+    font-size: 3.5rem;
+    font-family: "light";
+    font-weight: 100;
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.box3 img{
+    width: 35rem;
+    margin: 0 1rem;
+    object-fit: contain;
+}
+.box4{
+    margin: auto;
+    width: 45rem;
+}
+.text4{
+    text-align: center;
+    margin-top: 2rem;
+}
+.text4 a{
+    text-decoration: none;
+    color: black;
+    font-family: "light";
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.bloque4{
+    width: 100vw;
+    text-align: center;
+}
+.circle{
+    background-color: #157FFB;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+}
+.bloque4 h1{
+    font-family: "light";
+    font-weight: 300;
+    font-size: 4.5rem;
+}
+.bloque4 h2{
+    font-family: "cursiva";
+    font-size: 3rem;
+}
+.bloque4 p{
+    font-family: "light";
+    font-size: 2.5rem;
+}
+.bloque4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-family: "light";
+}
+.bloque4 img{
+    padding-top: 2rem;
+}
+.bloque5{
+    width: 100vw;
+    text-align: center;
+}
+.circle1{
+    background-color: #157FFB;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.bloque5 h1{
+    font-family: "light";
+    font-weight: 300;
+    font-size: 4.5rem;
+}
+.bloque5 h2{
+    font-family: "cursiva";
+    font-size: 3rem;
+}
+.bloque5 p{
+    font-family: "light";
+    font-size: 2.5rem;
+}
+.bloque5 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-family: "light";
+}
+.bloque5 img{
+    padding-top: 2rem;
+}
+.bloque6{
+    width: 100vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+.circle2{
+    background-color: #157FFB;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.bloque6 h2{
+    font-family: "cursiva";
+    font-size: 3rem;
+}
+.bloque6 p{
+    font-family: "light";
+    font-size: 2.5rem;
+} 
+.bloque6 .azul{
+    width: 90%;
+    margin: auto;
+    height: 22rem;
+    background-color: #157FFB;
+    border-radius: 2rem;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+.bloque6 .azul h1{
+    font-family: "regular";
+    font-size: 3.5rem;
+}
+.bloque6 .azul p{
+    font-family: "light";
+    font-weight: 100;
+}
+.bloque6 .azul button{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin: 0 3rem;
+    border: none;
+}
+.bloque6 .inferior{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 15rem;
+    background-color: #3266cc;
+    margin-top: 4rem;
+}
+.bloque6 .inferior p{
+    color: white;
+    font-family: "light";
+    font-size: 1.6rem;
+    font-family: "light";
+    font-weight: 100;
+}
+.logos{
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: auto;
+    margin-top: -5rem;
+}
+.inferior .texto2 img{
+    width: 2rem;
+}
+.inferior .texto3 img{
+    width: 2rem;
+}
+@media only screen and (max-width:430px){
+    .superior{
+        width: 100vw;
+        
+    }
+}
