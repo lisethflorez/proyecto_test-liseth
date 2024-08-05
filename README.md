@@ -2,7 +2,7 @@
 este proyecto se trata sobre lo del estado de las personas del municipio  
 ## contenido
 |fomulario |
-|--| 
+|--||--|
 |1|tipo de cedula |
 |2|tarjeta de identidad |
 |3| cedula extranjera |
