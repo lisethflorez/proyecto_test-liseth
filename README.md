@@ -1,7 +1,7 @@
 ### proyecto-test-liseth
 este proyecto se trata sobre lo del estado de las personas del municipio  
 ## contenido
-|fomulario |
+|pagina||fomulario |
 |--||--|
 |1|tipo de cedula |
 |2|tarjeta de identidad |
