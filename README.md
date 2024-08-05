@@ -11,6 +11,10 @@ este proyecto se trata sobre lo del estado de las personas del municipio  del in
 |6|primer apellido|
 |7|telefono movil|
 ## codigo de base
+- html
+- css
+## creador
+- liseth florez
 
 
 
